@@ -12,7 +12,7 @@ public class LTPlayGroundTest {
     public void validateCheckBoxStatus (){
         /**WebDriverManager is a open Source API to ease the Browser Initialisation .
         We can skip driver exe path definition**/
-      //  WebDriverManager.firefoxdriver().setup();
+       WebDriverManager.firefoxdriver().setup();
 
         //Chrome Browser Initialised
         WebDriver driver= new FirefoxDriver();
